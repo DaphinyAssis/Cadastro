@@ -1,0 +1,80 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "app",
+    "dateExported": "2023-09-19T13:37:48.230Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "2128fc43-3acb-4b86-8a30-54640a1c0f1a",
+            "colId": "afa1f97b-d180-4fba-a2fe-a8ce8dd15198",
+            "containerId": "",
+            "name": "Create User",
+            "url": "http://localhost:3000/users",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-09-19T11:35:56.497Z",
+            "modified": "2023-09-19T11:38:52.528Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\":1,\n  \"name\": \"teste\",\n  \"email\":\"fabio@prof.com.br\",\n  \"admin\": false,\n  \"password\":\"1234\"\n  \n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "f17ea75b-47bc-4d1b-9630-2a0f84d6ca76",
+            "colId": "afa1f97b-d180-4fba-a2fe-a8ce8dd15198",
+            "containerId": "",
+            "name": "List User",
+            "url": "http://localhost:3000/users",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-09-19T12:07:42.325Z",
+            "modified": "2023-09-19T12:09:38.109Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\":1,\n  \"name\": \"teste\",\n  \"email\":\"fabio@2prof.com.br\",\n  \"admin\": false,\n  \"password\":\"12345\"\n  \n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "c4d313da-67c1-4a71-bf4a-3fa39976876c",
+            "colId": "afa1f97b-d180-4fba-a2fe-a8ce8dd15198",
+            "containerId": "",
+            "name": "Update User",
+            "url": "http://localhost:3000/users",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2023-09-19T13:12:30.968Z",
+            "modified": "2023-09-19T13:14:42.847Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\":\"e79b74df-4751-4bfb-97b6-002a60d35464\",\n  \"name\": \"teste\",\n  \"email\":\"fabio@4prof.com.br\",\n  \"admin\": false,\n  \"password\":\"12341\"\n  \n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "fd31433f-b561-4ad0-84ce-9a6fa41d24c2",
+            "colId": "afa1f97b-d180-4fba-a2fe-a8ce8dd15198",
+            "containerId": "",
+            "name": "Delete User",
+            "url": "http://localhost:3000/users/e79b74df-4751-4bfb-97b6-002a60d35464",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2023-09-19T13:27:36.765Z",
+            "modified": "2023-09-19T13:28:04.169Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
